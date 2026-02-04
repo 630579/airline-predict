@@ -71,78 +71,79 @@ Predicts flight delays using multiple factors:
 **Health Monitor**
 - Monitors aircraft systems:
 
-Engine vibration and thrust
+- Engine vibration and thrust
 
-Cabin pressure and temperature
+- Cabin pressure and temperature
 
-Fuel consumption
+- Fuel consumption
 
-Generates critical alerts
+- Generates critical alerts
 
-Crew Optimizer
-Automated crew scheduling
+**Crew Optimizer**
+- Automated crew scheduling
 
-Duty time compliance checks
+ - Duty time compliance checks
 
-Crew shortage detection
+ - Crew shortage detection
 
-Load Predictor
-Predicts passenger demand
+**Load Predictor**
+- Predicts passenger demand
 
-Identifies overbooking risks
+- Identifies overbooking risks
 
-Categorizes demand levels
+- Categorizes demand levels
 
-Route Monitor
-Tracks weather along routes
+**Route Monitor**
+- Tracks weather along routes
 
-Suggests diversions when needed
+- Suggests diversions when needed
 
-Monitors destination conditions
+- Monitors destination conditions
 
-Dashboard
-Real-time operations display
+**Dashboard**
+- Real-time operations display
 
-Visual summaries of all metrics
+- Visual summaries of all metrics
 
-Alert status visualization
+- Alert status visualization
 
-Reporter
-Generates daily operations reports
+**Reporter**
+- Generates daily operations reports
 
-Creates detailed analysis documents
+- Creates detailed analysis documents
 
-PDF report generation
+- PDF report generation
 
-Interactive Menu Options
-Run Complete Analysis: Comprehensive analysis of all flights
+##Interactive Menu Options
 
-Start Real-time Monitoring: Continuous monitoring with live updates
+**Run Complete Analysis**: Comprehensive analysis of all flights
 
-Search Flight/Aircraft: Lookup specific flight or aircraft details
+**Start Real-time Monitoring**: Continuous monitoring with live updates
 
-Generate Custom Report: Create detailed operations report
+**Search Flight/Aircraft**: Lookup specific flight or aircraft details
 
-View Current Dashboard: Display real-time dashboard
+**Generate Custom Report**: Create detailed operations report
 
-System Configuration: Update thresholds and settings
+**View Current Dashboard**: Display real-time dashboard
 
-Exit: Close the application
+**System Configuration**: Update thresholds and settings
 
-Search Features
-Search flights by ID
+**Exit**: Close the application
 
-Search aircraft by registration
+##Search Features
+- Search flights by ID
 
-Search crew members
+- Search aircraft by registration
 
-Search by route
-Configuration Management
-Update weather thresholds
+- Search crew members
 
-Modify maintenance limits
+- Search by route
+##Configuration Management
+- Update weather thresholds
 
-Adjust crew scheduling rules
+- Modify maintenance limits
 
-Backup and restore system data
+- Adjust crew scheduling rules
+
+- Backup and restore system data
 
