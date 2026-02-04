@@ -2,13 +2,13 @@
 ## Features
 
 **Core Modules** :
-- Flight Delay Prediction: Predict delays based on weather, maintenance, and operational factors
-- Aircraft Health Monitoring: Real-time monitoring of engine performance, cabin conditions, and maintenance alerts
-- Crew Scheduling Optimization: Automated crew assignment with duty time compliance
-- Passenger Load Prediction: Forecast passenger demand and load factors
-- Route Monitoring: Weather tracking and diversion recommendations
-- Operations Dashboard: Real-time visualization of airline operations
-- Daily Reporting: Comprehensive operational reports generation
+- **Flight Delay Prediction**: Predict delays based on weather, maintenance, and operational factors
+- **Aircraft Health Monitoring**: Real-time monitoring of engine performance, cabin conditions, and maintenance alerts
+- **Crew Scheduling Optimization**: Automated crew assignment with duty time compliance
+- **Passenger Load Prediction**: Forecast passenger demand and load factors
+- **Route Monitoring**: Weather tracking and diversion recommendations
+- **Operations Dashboard**: Real-time visualization of airline operations
+- **Daily Reporting**: Comprehensive operational reports generation
 
  **Prerequisites** :
  
@@ -114,7 +114,7 @@ Predicts flight delays using multiple factors:
 
 - PDF report generation
 
-##Interactive Menu Options
+## Interactive Menu Options
 
 **Run Complete Analysis**: Comprehensive analysis of all flights
 
@@ -130,7 +130,7 @@ Predicts flight delays using multiple factors:
 
 **Exit**: Close the application
 
-##Search Features
+## Search Features
 - Search flights by ID
 
 - Search aircraft by registration
@@ -138,7 +138,7 @@ Predicts flight delays using multiple factors:
 - Search crew members
 
 - Search by route
-##Configuration Management
+## Configuration Management
 - Update weather thresholds
 
 - Modify maintenance limits
