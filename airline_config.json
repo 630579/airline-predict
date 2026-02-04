@@ -1,0 +1,79 @@
+{
+    "airline_name": "Global Airways",
+    "airline_code": "GA",
+    "base_airports": ["DEL", "BOM", "BLR", "MAA", "HYD"],
+    "hub_airport": "DEL",
+    "thresholds": {
+        "weather": {
+            "crosswind_max_knots": 40,
+            "visibility_min_meters": 1500,
+            "thunderstorm_delay_minutes": 60,
+            "turbulence_threshold": 5
+        },
+        "maintenance": {
+            "engine_thrust_deviation_percent": 20,
+            "engine_vibration_threshold": 7.5,
+            "cabin_pressure_min": 800,
+            "cabin_temp_max_celsius": 28,
+            "fuel_burn_deviation_percent": 15,
+            "altitude_fluctuation_threshold": 1000
+        },
+        "operations": {
+            "runway_queue_max_minutes": 25,
+            "boarding_max_minutes": 45,
+            "minimum_turnaround_time": 60,
+            "max_passenger_load_percent": 110
+        },
+        "crew": {
+            "max_duty_hours": 14,
+            "min_rest_hours": 10,
+            "max_flights_per_day": 4,
+            "min_pilots_per_flight": 2,
+            "min_cabin_crew_per_50_passengers": 1
+        }
+    },
+    "aircraft_fleet": {
+        "A320": {"capacity": 180, "range_km": 6100, "crew_required": 6},
+        "B737": {"capacity": 189, "range_km": 6300, "crew_required": 6},
+        "A380": {"capacity": 525, "range_km": 15700, "crew_required": 18},
+        "B787": {"capacity": 290, "range_km": 14140, "crew_required": 10},
+        "A350": {"capacity": 325, "range_km": 15000, "crew_required": 12}
+    },
+    "routes": {
+        "domestic": ["DEL-MAA", "BOM-BLR", "DEL-BOM", "BLR-HYD", "CCU-DEL", "AMD-GOI"],
+        "international": ["DEL-SIN", "BOM-DXB", "DEL-LHR", "BOM-BKK", "MAA-KUL", "DEL-JFK"],
+        "regional": ["DEL-ATQ", "BOM-GOI", "BLR-MAA", "CCU-GAU"]
+    },
+    "alternate_airports": {
+        "DEL": ["AMD", "ATQ", "LUH"],
+        "BOM": ["GOI", "PNQ", "BDQ"],
+        "BLR": ["MAA", "HYD", "COK"],
+        "MAA": ["BLR", "HYD", "TRZ"],
+        "DXB": ["SHJ", "AUH", "DWC"],
+        "LHR": ["STN", "LTN", "LGW"],
+        "SIN": ["KUL", "BKK", "CGK"]
+    },
+    "holidays": {
+        "2024": {
+            "01-01": "New Year's Day",
+            "01-26": "Republic Day",
+            "03-08": "Holi",
+            "04-14": "Ambedkar Jayanti",
+            "08-15": "Independence Day",
+            "10-02": "Gandhi Jayanti",
+            "12-25": "Christmas"
+        }
+    },
+    "alert_levels": {
+        "INFO": {"color": "GREEN", "action": "Monitor"},
+        "WARNING": {"color": "YELLOW", "action": "Review"},
+        "CRITICAL": {"color": "RED", "action": "Immediate Action"},
+        "EMERGENCY": {"color": "MAGENTA", "action": "Evacuate/Divert"}
+    },
+    "reporting": {
+        "daily_report_time": "23:00",
+        "health_check_interval_minutes": 30,
+        "dashboard_refresh_seconds": 60,
+        "alert_retention_days": 30
+    }
+}
